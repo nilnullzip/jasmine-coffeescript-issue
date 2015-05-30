@@ -1,2 +1,3 @@
 x = 1
-xxx
+Meteor.setTimeout ->
+  throw Error "bar"
